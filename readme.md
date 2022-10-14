@@ -10,7 +10,7 @@ Run 'DIDRP_gray_demo.py'
 ### Lai dataset
 Run 'DIDRP_Lai_demo.py'
 ### Inaccurate-kernel datasets
-Run 'KernelGen_Inacu.m' to generate inaccurate kernels. For a motion blur with lengths of 20 pixels and orientations of 10 degree:
+Run 'KernelGen_Inacu.m' to generate inaccurate kernels. For a motion blur with lengths of 20 pixels and orientations of 10 degrees:
 
 `ker = fspecial('motion', 20, 10);`
 
